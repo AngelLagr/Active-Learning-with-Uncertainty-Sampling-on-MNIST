@@ -1,6 +1,5 @@
 # Active Learning on MNIST in order to teach a CNN where to look
-
-## Description  
+## Description
 I'm trying to classify MNIST digits but with **less data** during the training process.
 
 I wanted to explore how **Active Learning** can help a model improve faster by **asking the right questions** or more concretely, by selecting the most uncertain examples to label and learn from. 
@@ -19,14 +18,12 @@ In parallel, I also trained a **standard baseline model** that just gets random 
 - **NumPy**
 
 ---
-
 ## How to Run  
 You can just run the script directly on collab
 
 ---
 
 ## Results
-
 After 5 rounds of active learning (so only ~150 samples in total!), we compare both models:
 
 ### 📈 Learning curve  
