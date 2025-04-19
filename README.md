@@ -26,7 +26,7 @@ You can just run the script directly on collab
 ## Results
 After 5 rounds of active learning (so only ~150 samples in total!), we compare both models:
 
-### 📈 Learning curve  
+### Learning curve  
 You can see on the grave that the active learner improves a bit faster, especially in the early rounds showing that the model benefits from choosing the right training points rather than just more data. Throughout a lot of tries, this method seems to be a little bit better than a classical one.
 
 ![exemple](exemple.png)
