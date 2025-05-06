@@ -2,9 +2,9 @@
 ## Description
 I'm trying to classify MNIST digits but with **less data** during the training process.
 
-I wanted to explore how **Active Learning** can help a model improve faster by **asking the right questions** or more concretely, by selecting the most uncertain examples to label and learn from. 
+I wanted to explore how **Active Learning** can help a model improve faster by selecting the most uncertain examples to label and learn from. 
 
-I'm going to use a simple CNN, start with just 100 labeled samples, and then iteratively add the most "confusing" images using a **margin sampling strategy**.
+I'm going to use a simple CNN, start with just 100 labeled samples, and then iteratively add the most "confusing" images using a **margin sampling strategy**. During each epoch, I predict all instances and select for the next epoch those with the lowest predicted class probabilities.
 
 In parallel, I also trained a **standard baseline model** that just gets random new samples at each iteration so we can compare and see if this "smart training" is actually worth it.
 
