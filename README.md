@@ -1,4 +1,4 @@
-# Active Learning on MNIST in order to teach a CNN where to look
+# Active-Learning-with-Uncertainty-Sampling
 ## Description
 I'm trying to classify MNIST digits but with **less data** during the training process.
 
